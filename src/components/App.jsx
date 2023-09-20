@@ -22,7 +22,7 @@ export function App() {
     if (query !== '') {
       fetchImages();
     }
-  }, [query]); // Додайте fetchImages до масиву залежностей
+  }, [query]);
 
   // Обробник форми для пошуку
   const handleFormSubmit = query => {
