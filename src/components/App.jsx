@@ -64,12 +64,12 @@ export function App() {
   };
 
   // СКРОЛ до низу---ТРЕБА ДОРОБИТИ --- ПОВЕРНУТИСЬ до ЦЬОГО
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: 'smooth',
-    });
-  };
+  // const scrollToBottom = () => {
+  //   window.scrollTo({
+  //     top: document.documentElement.scrollHeight,
+  //     behavior: 'smooth',
+  //   });
+  // };
 
   // Обробник кліку на IMG
   const handleImageClick = largeImageURL => {
